@@ -157,4 +157,4 @@ xlim([0 640]/2);
 ylim([0 1280]/2);
 set(gca,'FontSize',13);
 
-% write_xbm(binary_image,"DosemapBinary_WD.xbm")
+write_xbm(binary_image,"DosemapBinary_WD.xbm")
