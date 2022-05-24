@@ -42,4 +42,4 @@ MsatWhole_binary[166:474,6:314] = Msat_binary
 
 plt.imsave(plotdir+'%d.png' % (0), MsatWhole_binary, cmap=cm.gray)
 
-savemat("matlab/MsatBinary_YIGdubs2_50umx100um.mat", {"Msat_binary": MsatWhole_binary})
+savemat("matlab/MsatBinary_ForTest.mat", {"Msat_binary": MsatWhole_binary})
